@@ -4,7 +4,9 @@ public class Day3_project_Game_of_st_pa_sr {
 	
 	public static int playerChoice()
 	{
-		System.out.println("Enter your Choice:");
+		System.out.println("Enter your Choice:");  	//stone-- 0
+								//paper-- 1
+								//Scissors --2
 		int me = new Scanner(System.in).nextInt();
 		return me;
 	}
@@ -40,9 +42,6 @@ public class Day3_project_Game_of_st_pa_sr {
 	}
 	public static void main(String[] args) 
 	{
-		//stone-- 0
-		//paper-- 1
-		//Scissors --2
 		
 		char choice;
 		do{
